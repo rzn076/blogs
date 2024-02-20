@@ -113,42 +113,6 @@ body{margin:0px}
 
 
 
-  <script type='text/javascript'>
-//<![CDATA[
-function redirectCU(e) {
-  if (e.ctrlKey && e.which == 85) {
-    window.location.replace("https://www.google.com/");
-    return false;
-  }
-}
-document.onkeydown = redirectCU;
-function redirectKK(e) {
-  if (e.which == 3) {
-    window.location.replace("https://www.google.com/");
-    return false;
-  }
-}
-document.oncontextmenu = redirectKK;
-//]]>
-</script>
-    
-<script>    
-(function ($) {
-    // 3.0 Size Selection
-    $(".choose-size-radio li").on("click", function () {
-        $(".choose-size-radio li").removeClass("active");
-        $(this).addClass("active");
-    }); 
- })(jQuery);
-(function ($) {
-    // 3.0 Size Selection
-    $(".choose-size-radios li").on("click", function () {
-        $(".choose-size-radios li").removeClass("active");
-        $(this).addClass("active");
-    }); 
- })(jQuery);  
-</script>  
-  
      
      
 </body>
