@@ -9,52 +9,10 @@ body{margin:0px}
     <meta name="robots" content="noindex, nofollow">
     <meta http-equiv="pragma" content="no-cache">
     <title>REPRODUCTOR</title>
-  <style>
-  .container {
-        position : relative;
-        width : 258px;
-        height : 203px;
-  }
-
-  .overlay {
-      position : absolute;
-      top : 0;
-      left : 0;
-      right : 0;
-      bottom : 0;
-      cursor : pointer;
-  }
-  </style>
-
 </head>
-  <body><div class="container">
-
+<body>
     <div id="player"></div>
-      <div class="overlay">&nbsp;</div>
-    </div>
-  <style>
-  .container {
-        position : relative;
-        width : 100%;
-        height : 100%;
-  }
-
-  .overlay {
-      position : absolute;
-      top : 0;
-      left : 0;
-      right : 0;
-      bottom : 0;
-      cursor : pointer;
-  }
-  </style>
-
-  
-
     <script src="//ssl.p.jwpcdn.com/player/v/8.22.0/jwplayer.js" type="text/javascript"></script>
-  
- 
-  
     <script type="text/javascript">
         function getParameterByName(name, url) {
             if (!url) url = window.location.href;
@@ -75,12 +33,10 @@ body{margin:0px}
         data.setup({
             playlist: [{
                 "title": "",
-              "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2bRcz3wxjohW6syWXhocA523770_YrLNr9HHoD1d0bBGr7KufGT71XMxEcazh5y1pEcdZVQX3o7R8s8aqrzwSEnrs0KewauqOdC37jz4Wy5rS5GC6fWy31cY11KMcBVh_J78t-OOQDSQciEwysL2EONiDBpnkv-YJMwvW9XeZ2ij67pEuBosAzwN0bmeM/s1280/footem.png",
+                 "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2bRcz3wxjohW6syWXhocA523770_YrLNr9HHoD1d0bBGr7KufGT71XMxEcazh5y1pEcdZVQX3o7R8s8aqrzwSEnrs0KewauqOdC37jz4Wy5rS5GC6fWy31cY11KMcBVh_J78t-OOQDSQciEwysL2EONiDBpnkv-YJMwvW9XeZ2ij67pEuBosAzwN0bmeM/s1280/footem.png",
                 "sources": [{
                     "default": false,
                     "type": "dash",
-                  
-                  
                     "file": `https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-${idParameter}/stream.mpd`,
                     "drm": {
                         "clearkey": { "keyId": "82f8e2a17dac44c0a18f660479349c59", "key": "1b144f73e6fefe91cd05f850e2b589d0" }
@@ -94,26 +50,36 @@ body{margin:0px}
             cast: {},
             sharing: {}
         });
-  
-      
-
 
         data.on("play", function (e) {
             data.setCurrentAudioTrack(1);
         });
-      
-      
-   
-
-       </script>
-  
-  
-  <a href="javascript:document.location.reload();" onclick="window.open('https://www.whatsapp.com/channel/0029Va5CwglCRs1jRlhkhF3x', '_blank')">
+    </script>
+    <a href="javascript:document.location.reload();" onclick="window.open('https://www.whatsapp.com/channel/0029Va5CwglCRs1jRlhkhF3x', '_blank')">
   <span style="position:absolute;z-index: 100; top:5px; right:5px; height:20px; width:100px; color:#ccc; border:2px solid #ccc;padding:1px 0;border-radius:2px; text-align:center"><i class="fa fa-refresh" aria-hidden="true"></i>Join Us</span></a>
+  
+  
+  <script type='text/javascript'>
+//<![CDATA[
+function redirectCU(e) {
+  if (e.ctrlKey && e.which == 85) {
+    window.location.replace("https://www.google.com/");
+    return false;
+  }
+}
+document.onkeydown = redirectCU;
+function redirectKK(e) {
+  if (e.which == 3) {
+    window.location.replace("https://www.google.com/");
+    return false;
+  }
+}
+document.oncontextmenu = redirectKK;
+//]]>
+</script>
+    
+ 
+  
 
-
-
-     
-     
 </body>
 </html>
