@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+
+<script type='text/javascript'>
+        document.oncontextmenu = function(){return false}
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/console-ban@4.1.0/dist/console-ban.min.js"></script>
+    <script>
+        // default options
+        ConsoleBan.init()
+        </script> 
+
+<script type="text/javascript" disable-devtool-auto src="//fastly.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+
+</head>
+
+<body>
+<body oncontextmenu='return false' onkeydown='return false' oncopy='return false' oncut='return false' onpaste='return false'>
+
+<script src="//cdn.jsdelivr.net/npm/@clappr/player@0.4.0/dist/clappr.min.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/mux.js@5.6.7/dist/mux.min.js"></script>
+   <script src='//cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js'></script>
+   <script src='//cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js'></script>
+   <script src='//cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js'></script>
+   <script src='//cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js'></script>
+   <script src="//cdn.jsdelivr.net/npm/shaka-player@2.5.10/dist/shaka-player.compiled.min.js"></script>
+   <script src="//cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.external.min.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/cdnbye-shaka@latest"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
+      
+  <script>
+    function getParameterByName(name) {
+  name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
+  var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
+  results = regex.exec(location.search);
+  return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+
+  var id = getParameterByName('id');
+
+   </script>
+
+   
+<div id="player"></div>
+   <script>
+ 
+    player = new Clappr.Player({
+      source:  "https://lebo.huminbird.cn/live/ballbar_"+(id)+".m3u8",
+       poster: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2bRcz3wxjohW6syWXhocA523770_YrLNr9HHoD1d0bBGr7KufGT71XMxEcazh5y1pEcdZVQX3o7R8s8aqrzwSEnrs0KewauqOdC37jz4Wy5rS5GC6fWy31cY11KMcBVh_J78t-OOQDSQciEwysL2EONiDBpnkv-YJMwvW9XeZ2ij67pEuBosAzwN0bmeM/s1280/footem.png",
+      mimeType: "application/x-mpegURL",
+  
+      autoPlay: false, 
+      height: "100%",
+      width: "100%",
+      plugins: {"core": [LevelSelector]}, 
+      parentId: "#player"});
+    
+ </script>
+
+<a href="javascript:document.location.reload();" onclick="javascript:window.open(&quot;https://shope.ee/VkYXjZGqG&quot;)" target="_self"><span style="position:absolute;z-index: 100; top:5px; left:5px; height:20px; width:100px; color:#ccc; border:2px solid #ccc;padding:1px 0;border-radius:2px; text-align:center"><i class="fa fa-refresh"></i> Reload</span></a>
+
+<script type='text/javascript'>$(document).ready(function() {$(&#39;img#closed&#39;).click(function(){$(&#39;#btm_banner&#39;).hide(90);});});</script>
+    <!--start: floating ads-->
+    <div id='floatads' style='width:100%;margin:auto; text-align:center;float:none;overflow:hidden; display:scroll;position:fixed; bottom:100px;z-index:9999'><div>
+    
+
+<a href="javascript:document.location.reload();" onclick="window.open('https://www.whatsapp.com/channel/0029Va5CwglCRs1jRlhkhF3x'); return false;" target="_blank">
+    <span style="position:absolute;z-index: 100; top:5px; left:5px; height:20px; width:100px; color:#ccc; border:2px solid #ccc;padding:1px 0;border-radius:2px; text-align:center">
+        <i class="fa fa-refresh"></i> Join US
+    </span>
+</a>
+
+    <div style='text-align:center;display:block;max-width:auto;height:auto;overflow:hidden;margin:auto'/>
+      </div>
+      </div>
+    <!--end: floating ads-->
+
+</body>
+</body>
+
+</html>
