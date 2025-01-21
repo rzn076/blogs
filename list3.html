@@ -111,6 +111,16 @@ $(document).ready(function() {
 
             // Define multiple manifest URIs and DRM configurations
             const videoConfigs = [
+
+		    {
+                    id: 'USANETWORK',
+                    manifestUri: 'https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd',
+                    drmConfig: {
+                        clearKeys: {
+                            '78ab64fa90f137a697743b5dc27b2f96': 'de4d31c7fc6005ede28abab2a0720a9f'
+                        }
+                    }
+                },
               {
                     id: 'GXR-1',
                     manifestUri: 'https://d3f8xbuyg437dn.cloudfront.net/out/v1/dfd48cfdbe04480fbb5529bebd54f04a/index.mpd',
