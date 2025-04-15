@@ -109,6 +109,16 @@ $(document).ready(function() {
 
             // Define multiple manifest URIs and DRM configurations
             const videoConfigs = [
+              
+               
+         
+          {
+                    id: 'HD1',
+                    manifestUri: 'https://iptv2.wirdy.workers.dev/02_PremierHD1_720p/chunklist.m3u8',
+                  
+                        }
+                    }
+                },
 
 		    {
                     id: 'USANETWORK',
@@ -119,24 +129,43 @@ $(document).ready(function() {
                         }
                     }
                 },
-              {
-                    id: 'GXR-1',
-                    manifestUri: 'https://d3f8xbuyg437dn.cloudfront.net/out/v1/dfd48cfdbe04480fbb5529bebd54f04a/index.mpd',
+         
+          {
+                    id: 'NBC',
+                    manifestUri: 'https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc122ycnuy)/master.mpd',
                     drmConfig: {
                         clearKeys: {
-                            '1eb79728f5994eb18eadbb5b885103de': 'ad8c388edde7bbb722245ec3b019c9aa'
+                            '0020d88a6713159839743f655c5da7de': 'ba9f34226301f69a4f0f13f65a1f92ec'
                         }
                     }
                 },
-              {
-                    id: 'GXR-2',
-                    manifestUri: 'https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/wjgklbtvhh/out/v1/659736a1e24c40e4865a80ffd75e7de7/cenc.mpd',
+         
+          {
+                    id: 'UNIVERSO',
+                    manifestUri: 'https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL1-CTR-4s/Live/channel(universo-east)/master.mpd',
                     drmConfig: {
                         clearKeys: {
-                            '43d1c3b25207ff38b22ccfe17d302367': '7b1f85f6e81059473b114c16a25c829a'
+                            'a42669eafed7349499aab7df588b3ccf': '0fbff143ebd097060a377e4ade033288'
                         }
                     }
-                },
+                }, 
+                  
+                  {
+                    id: 'TELEMUNDO',
+                    manifestUri: 'https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL1-CTR-4s/Live/channel(WSNS)/master.mpd',
+                    drmConfig: {
+                        clearKeys: {
+                            '7d6bb9f86e133e4cb33440b493b6b672': '584ad285dcb9e7d42cf3e93f1cc3fe11'
+                        }
+                    }
+                }, 
+              
+              
+              
+         
+         
+         
+              
                {
                     id: 'TNT_1_GB',
                     manifestUri: 'https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd',
@@ -505,15 +534,7 @@ $(document).ready(function() {
                     }
                 }, 
               
-              
-              
-              
-              
-              
-              
-              
-              
-              
+             
               
               {
                     id: 'SKYSPORTS_BUDESLIGA2',
@@ -524,7 +545,63 @@ $(document).ready(function() {
                         }
                     }
                 }, 
+         
+         
+         
+         
+         
+              {
+                    id: 'FOXSPORTS',
+                    manifestUri: 'https://aka-live1-ott.izzigo.tv/1/out/u/dash/FOX-SPORTS-HD/default.mpd',
+                    drmConfig: {
+                        clearKeys: {
+                            '9e276bd34034a2c4dcf61d74e1242fbf': '4b466a4affb61d2672a4194b14e10ef2'
+                        }
+                    }
+                }, 
               
+              
+
+           {
+                    id: 'FOXSPORTS2',
+                    manifestUri: 'https://aka-live1-ott.izzigo.tv/4/out/u/dash/FOX-SPORTS-2-HD/default.mpd',
+                    drmConfig: {
+                        clearKeys: {
+                            '23986dae03fa883ed8e489cbf70f9ec3': '6a42c42732a9dd1da1205971b2c5c535'
+                        }
+                    }
+                }, 
+         
+          {
+                    id: 'FOXSPORTS3',
+                    manifestUri: 'https://aka-live1-ott.izzigo.tv/1/out/u/dash/FOX-SPORTS-3-HD/default.mpd',
+                    drmConfig: {
+                        clearKeys: {
+                            'ed8dd7562fd9f9064bed8d52fa42cc11': 'd65a22cfe5bfbd33d8d25b183649e44f'
+                        }
+                    }
+                }, 
+              
+         {
+                    id: 'FOXSPORTS_PREMIUM',
+                    manifestUri: 'https://aka-live1-ott.izzigo.tv/1/out/u/dash/FOX-SPORTS-PREMIUM-HD/default.mpd',
+                    drmConfig: {
+                        clearKeys: {
+                            '0fefd5d94a8cb5b40c057ab182f7dc27': '5548c4823ff7f1ea61bafb7cbc19e005'
+                        }
+                    }
+                }, 
+              
+         
+          {
+                    id: 'TUDN',
+                    manifestUri: 'https://aka-live1-ott.izzigo.tv/1/out/u/dash/TUDN-HD/default.mpd',
+                    drmConfig: {
+                        clearKeys: {
+                            '2722647f77b44824c432a3c4555830a2': '1734befb82f4b438bd84195f6c212e7b'
+                        }
+                    }
+                }, 
               
               
               
