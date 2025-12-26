@@ -1078,4 +1078,66 @@ document.querySelectorAll('.shaka-back-to-overflow-button .material-icons-round'
 Join us
 </span>
 </a>
+
+		<div class="ad-window-container" id="adWindow">
+    <div class="ad-header">
+        <span>Sponsored Content</span>
+        <button onclick="document.getElementById('adWindow').style.display='none'">×</button>
+    </div>
+    <div class="ad-body">
+        <script>
+          atOptions = {
+            'key' : '351a0a1af1a2a9b97609abf587ede1fc',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+          };
+        </script>
+        <script src="https://crazinessheirloom.com/351a0a1af1a2a9b97609abf587ede1fc/invoke.js"></script>
+        </div>
+</div>
+
+<style>
+    .ad-window-container {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 340px; /* Slightly wider than the 320px ad */
+        background: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        border-radius: 8px;
+        z-index: 9999;
+        overflow: hidden;
+        font-family: sans-serif;
+    }
+
+    .ad-header {
+        background: #f1f1f1;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        color: #666;
+    }
+
+    .ad-header button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .ad-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        min-height: 50px;
+    }
+</style>
 </body></html>
