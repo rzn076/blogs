@@ -119,6 +119,18 @@ $(document).ready(function() {
                         }
                     }
                 },
+
+				 {
+                    id: 'DAZNFAST',
+                    manifestUri: 'https://dyqiabnsd224t.cloudfront.net/dash/dazn-linear-504/stream.mpd?p=web',
+                    drmConfig: {
+                        clearKeys: {
+                           'cfb5e2b73bef4f3c878f25ab86a7451f':'0d6712bf2a84edcc93d001a9613f6fec',
+                    '8ab47741930c476780515f9a00decb0a':'7ab4b9ae5a48aa526e511a913b832769',
+                    '82f8e2a17dac44c0a18f660479349c59':'1b144f73e6fefe91cd05f850e2b589d0'
+                        }
+                    }
+                }, 
               {
                     id: 'SER2',
                     manifestUri: 'https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd',
@@ -285,6 +297,8 @@ $(document).ready(function() {
                         }
                     }
                 },
+
+				
                 {
                     id: 'TNT_5_GB',
                     manifestUri: 'https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/gesdwrdncn/out/v1/79e752f1eccd4e18b6a8904a0bc01f2d/cenc.mpd',
@@ -386,6 +400,8 @@ $(document).ready(function() {
                         }
                     }
                 }, 
+
+				
               
               {
                     id: 'ARENA4P',
@@ -1079,65 +1095,7 @@ Join us
 </span>
 </a>
 
-		<div class="ad-window-container" id="adWindow">
-    <div class="ad-header">
-        <span>Sponsored Content</span>
-        <button onclick="document.getElementById('adWindow').style.display='none'">×</button>
-    </div>
-    <div class="ad-body">
-      <script>
-  atOptions = {
-    'key' : '6b8227e9d646f49438d8fd8e048e0c1f',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script src="https://crazinessheirloom.com/6b8227e9d646f49438d8fd8e048e0c1f/invoke.js"></script>
-        </div>
-</div>
+	
 
-<style>
-    .ad-window-container {
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 340px; /* Slightly wider than the 320px ad */
-        background: #fff;
-        border: 1px solid #ddd;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        border-radius: 8px;
-        z-index: 9999;
-        overflow: hidden;
-        font-family: sans-serif;
-    }
-
-    .ad-header {
-        background: #f1f1f1;
-        padding: 5px 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 12px;
-        color: #666;
-    }
-
-    .ad-header button {
-        border: none;
-        background: none;
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: bold;
-    }
-
-    .ad-body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        min-height: 50px;
-    }
-</style>
+  
 </body></html>
